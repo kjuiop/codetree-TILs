@@ -6,6 +6,6 @@ public class Main {
         int b = sc.nextInt();
 
         System.out.printf("%d * %d = %d\n", a, b, a * b);
-        System.out.printf("%d / %d = %d\n", a, b, a / 5);
+        System.out.printf("%d / %d = %d\n", a, b, a / b);
     }
 }
