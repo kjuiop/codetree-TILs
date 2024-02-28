@@ -10,6 +10,8 @@ public class Main {
             System.out.println("Tom");
         } else if (a == 3) {
             System.out.println("Paul");
+        } else {
+            System.out.println("Vacancy");
         }
     }
 }
