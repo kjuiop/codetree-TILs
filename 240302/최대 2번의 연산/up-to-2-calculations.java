@@ -11,6 +11,10 @@ public class Main {
     }
 
     public static int calculate(int a) {
+        if (a <= 1) {
+            return a;
+        }
+        
         if (a % 2 == 0) {
             a = a / 2;
         } else {
