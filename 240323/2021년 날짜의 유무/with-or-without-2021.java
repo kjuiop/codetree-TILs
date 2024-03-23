@@ -7,13 +7,13 @@ public class Main {
         int month = sc.nextInt();
         int date = sc.nextInt();
 
-        YearMonth yearMonthObject = YearMonth.of(2021, month);
-        int daysInMonth = yearMonthObject.lengthOfMonth();
-
         if (month > 12 || date > 31) {
             System.out.println("No");
             return;
         }
+        
+        YearMonth yearMonthObject = YearMonth.of(2021, month);
+        int daysInMonth = yearMonthObject.lengthOfMonth();
 
         if (date <= daysInMonth) {
             System.out.println("Yes");
