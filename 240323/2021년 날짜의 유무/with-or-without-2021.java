@@ -10,6 +10,11 @@ public class Main {
         YearMonth yearMonthObject = YearMonth.of(2021, month);
         int daysInMonth = yearMonthObject.lengthOfMonth();
 
+        if (month > 12 || date > 31) {
+            System.out.println("No");
+            return;
+        }
+
         if (date <= daysInMonth) {
             System.out.println("Yes");
         } else {
